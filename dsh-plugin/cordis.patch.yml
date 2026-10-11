@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-mount-and-blade
+      name: dsh-mount-and-blade
+      config: {}

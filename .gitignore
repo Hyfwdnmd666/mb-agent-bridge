@@ -1,0 +1,20 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# run artefacts - screenshots and traces are regenerated, never committed
+frames/
+demo_frames/
+*.png
+!docs/*.png
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

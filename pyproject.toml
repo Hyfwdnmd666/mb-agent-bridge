@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mb-agent-bridge"
+version = "0.1.0"
+description = "Let an AI agent see and play Mount & Blade 1.011 - screenshot, inject input, read game memory. Zero dependencies."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["mount-and-blade", "game-automation", "agent", "win32", "ctypes", "computer-use"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Win32 (MS Windows)",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Microsoft :: Windows",
+  "Programming Language :: Python :: 3",
+  "Topic :: Games/Entertainment",
+  "Topic :: Software Development :: Libraries",
+]
+dependencies = []
+
+[project.scripts]
+mb-bridge = "mb_bridge:main"
+
+[project.urls]
+Homepage = "https://github.com/<you>/mb-agent-bridge"
+
+[tool.setuptools]
+py-modules = ["mb_bridge"]

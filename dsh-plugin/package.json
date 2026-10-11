@@ -1,0 +1,13 @@
+{
+  "name": "dsh-mount-and-blade",
+  "version": "0.1.0",
+  "description": "Register Mount & Blade 1.011 as DSH model tools so the agent can look at and play the game.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
